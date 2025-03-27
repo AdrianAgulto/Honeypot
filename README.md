@@ -1,27 +1,17 @@
 # Honeypot
 
-PROJECTNAME
+HONEYPOT
+
 Objective
-[Brief Objective - Remove this afterwards]
+The objective of this project was to gain exposure to a common cybersecurity defense mechanism known as a honeypot used to lure and trap attackers. 
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
-
-Skills Learned
-[Bullet Points - Remove this afterwards]
-
-Advanced understanding of SIEM concepts and practical application.
-Proficiency in analyzing and interpreting network logs.
-Ability to generate and recognize attack signatures and patterns.
-Enhanced knowledge of network protocols and security vulnerabilities.
-Development of critical thinking and problem-solving skills in cybersecurity.
 Tools Used
-[Bullet Points - Remove this afterwards]
+- T-Pot
+- Vultr Cloud Server
+- Kibana
+- Ubuntu
 
-Security Information and Event Management (SIEM) system for log ingestion and analysis.
-Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-Telemetry generation tools to create realistic network traffic and attack scenarios.
-Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+
 
 Spin up a VM server in the cloud, VULTR had a bonus sign on credit so we went with that cloud provider
 I chose Ubuntu as my OS out of preference
@@ -63,7 +53,7 @@ Both Elasticvue and Kibana are tools that comprise the SIEM known as “ELK stac
 
 <img width="953" alt="image" src="https://github.com/user-attachments/assets/c72e4071-2638-438d-93a1-a5f378aa0871"/>
 
-If we open up the Attack Map, we can see tracers of real time connection attempts including the geo location and the port of the attack attempted on our machine.
+If we open up the Attack Map, we can see tracers of real time connection attempts including the geolocation and the port of the attempted attack on our machine.
 
 <img width="886" alt="image" src="https://github.com/user-attachments/assets/82a8391e-8ad5-4729-8b24-39d4c1aa281e" />
 
