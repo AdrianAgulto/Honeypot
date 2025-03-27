@@ -76,7 +76,7 @@ https://45.32.215.92:64297/
 
 In the T-pot dashboard we have shortcuts to a few different tools.
 
-Attack Map:
+Attack Map: A simulator showing attacks against our machine in real time.
 
 Cyberchef: An excellent tool for encoding and decoding data.
 
@@ -104,6 +104,8 @@ Ref 6: T-Pot Attack Map
 To see the T-Pot dashboard, I will open Kibana and select the dashboard created for our platform.
 
 From this dashboard we can see several visualizations that account for attacks by country, which port they attempted to connect to, the OS the attacker was using, and the usernames and passwords that were attempted.
+
+The dashboard will also show the quantity of all these metrics organized by color and charts that are easily comprehensible.
 
 ![Screenshot 2025-03-25 195144](https://github.com/user-attachments/assets/68a9c6e3-22ac-4cd6-8b01-994970c8caa3)
 
