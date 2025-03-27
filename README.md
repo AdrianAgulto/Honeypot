@@ -11,10 +11,14 @@ Tools Used
 - Kibana
 - Ubuntu
 
-
-
 Spin up a VM server in the cloud, VULTR had a bonus sign on credit so we went with that cloud provider
+
 I chose Ubuntu as my OS out of preference
+
+We also chose 160 GB of SSD and 8 GB of RAM to meet the minimum specs required of our honeypot platform
+
+![VM](https://github.com/user-attachments/assets/3c9df45d-f608-4e9a-9732-0cd399bcb547)
+
 Configuring the virtual server we have opened up traffic to all possible port numbers ranging from [0-65,535] but making the ports inaccessible so that the server will be visible but inaccessible
 
 ![firewall](https://github.com/user-attachments/assets/a66d3360-b00f-4efb-b16c-a96f7f77d50d)
@@ -35,8 +39,11 @@ Then we run the installer cmd provided for us in the T-Pot documentation ”env 
 
 After installing the honeypot we are ready to access the dashboard
 
-Upon reading the documentation I found that the teapot is accessible for management via ports 64294,64296,64297. I want the web based gui so I will remote into the NGINX reverse proxy https on port 64297. I open up these ports and indicate in the 
-"Source" tab and select the "My IP" option so we will be able to access the machine.
+Upon reading the documentation I found that the teapot is accessible for management via ports 64294,64296,64297.
+
+I want the web based gui so I will remote into the NGINX reverse proxy https on port 64297. 
+
+I open up these ports to my machine by navigating to the "Source" tab and select the "My IP" option so we will be able to access the machine from our current IP.
 
 ![documentation](https://github.com/user-attachments/assets/a417aa16-de5b-41dc-9c79-25c2c8f5ec99)
 
@@ -45,10 +52,15 @@ https://45.32.215.92:64297/
 
 In the T-pot dashboard we have shortcuts to a few different tools
 Attack Map:
+
 Cyberchef: An excellent tool for encoding and decoding data
+
 Spiderfoot: An OSINT tool that can be used for reconnaissance 
+
 Elasticvue: A tool allowing you to search, filter and query through data clusters
+
 Kibana: A tool that can display a customized dashboard for log analytics
+
 Both Elasticvue and Kibana are tools that comprise the SIEM known as “ELK stack” the only tool missing that would complete the ELK Stack is Logstash.
 
 <img width="953" alt="image" src="https://github.com/user-attachments/assets/c72e4071-2638-438d-93a1-a5f378aa0871"/>
