@@ -3,7 +3,7 @@
 <h3>Objective</h3>  
 The objective of this project was to gain exposure to a common cybersecurity defense mechanism known as a honeypot used to lure and trap attackers. 
 
-<h3>Software Utilized</h3>  
+<h3>Softwares Utilized</h3>  
 - T-Pot
 - Vultr Cloud Server
 - Kibana
