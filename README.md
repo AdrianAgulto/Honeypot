@@ -21,9 +21,20 @@ We also chose 160 GB of SSD and 8 GB of RAM to meet the minimum specs required o
 
 Configuring the virtual server we have opened up traffic to all possible port numbers ranging from [0-65,535] but making the ports inaccessible so that the server will be visible but inaccessible
 
+Upon reading the documentation I found that the teapot is accessible for management via ports 64294,64296,64297.
+
+I want the web based gui so I will remote into the NGINX reverse proxy https on port 64297. 
+
+I open up these ports to my machine by navigating to the "Source" tab and select the "My IP" option so we will be able to access the machine from our current IP.
+
+![documentation](https://github.com/user-attachments/assets/a417aa16-de5b-41dc-9c79-25c2c8f5ec99)
+
+
 ![firewall](https://github.com/user-attachments/assets/a66d3360-b00f-4efb-b16c-a96f7f77d50d)
 
-To install our honeypot platform t-pot we must download from outside the root account, so we will make a user with admin privileges
+To install our honeypot platform t-pot we must download the install from a non-root account, so we will make a user with admin privileges.
+
+We open the shell console and run these commands 
 
 sudo adduser <adrian>
 
@@ -39,18 +50,12 @@ Then we run the installer cmd provided for us in the T-Pot documentation ”env 
 
 After installing the honeypot we are ready to access the dashboard
 
-Upon reading the documentation I found that the teapot is accessible for management via ports 64294,64296,64297.
-
-I want the web based gui so I will remote into the NGINX reverse proxy https on port 64297. 
-
-I open up these ports to my machine by navigating to the "Source" tab and select the "My IP" option so we will be able to access the machine from our current IP.
-
-![documentation](https://github.com/user-attachments/assets/a417aa16-de5b-41dc-9c79-25c2c8f5ec99)
-
 We will search the link below to access the web gui
+
 https://45.32.215.92:64297/
 
 In the T-pot dashboard we have shortcuts to a few different tools
+
 Attack Map:
 
 Cyberchef: An excellent tool for encoding and decoding data
