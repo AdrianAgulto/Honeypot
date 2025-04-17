@@ -35,7 +35,7 @@ Configuring the virtual server we have opened up traffic to all possible port nu
 
 Upon reading the documentation I found that the teapot is accessible for management via ports 64294,64296,64297.
 
-I want the web based gui so I will remote into the NGINX reverse proxy https on port 64297. 
+I want the web based gui for ease of use, so I will remote into the NGINX reverse proxy https on port 64297. 
 
 I open up these ports to my machine by navigating to the "Source" tab and select the "My IP" option so we will be able to access the machine from our current IP.
 
