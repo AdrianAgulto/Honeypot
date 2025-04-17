@@ -5,8 +5,11 @@ The objective of this project was to gain exposure to a common cybersecurity def
 
 <h3>Softwares Utilized</h3>  
 - T-Pot
+
 - Vultr Cloud Server
+
 - Kibana
+
 - Ubuntu
 
 <h3>Step by Step</h3>
