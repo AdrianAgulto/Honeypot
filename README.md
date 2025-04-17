@@ -5,7 +5,7 @@ The objective of this project was to gain exposure to a common cybersecurity def
 
 <h3>Softwares Utilized</h3>  
  
-- TPot
+- T-Pot
 
 - Vultr Cloud Server
 
