@@ -33,7 +33,7 @@ Ref 1: Vultr Interface
 
 Configuring the virtual server we have opened up traffic to all possible port numbers ranging from [0-65,535] but making the ports inaccessible so that the server will be visible but inaccessible.
 
-Upon reading the documentation I found that the teapot is accessible for management via ports 64294,64296,64297.
+Upon reading the documentation I found that the T-pot is accessible for management via ports: 64294,64296,64297.
 
 I want the web based gui for ease of use, so I will remote into the NGINX reverse proxy https on port 64297. 
 
@@ -51,7 +51,7 @@ Ref 3: Firewall Configuration
 
 <h3>T-Pot Installation</h3>
 
-To install our honeypot platform t-pot we must download the install from a non-root account, so we will make a user with admin privileges.
+To install our honeypot platform t-pot we must download the installer from a non-root account, so we will make a user with admin privileges.
 
 We open the shell console and run these commands.
 
