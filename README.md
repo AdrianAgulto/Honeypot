@@ -19,7 +19,7 @@ Lets break the project down step by step to show some of the processes involved 
 <h3>Spinning Up the VM</h3>
 
 
-Spin up a VM server in the cloud, VULTR had a bonus sign on credit so we went with that cloud provider.
+Spin up a VM server in the cloud, VULTR had a bonus sign on credit so we went with them as our cloud provider.
 
 I chose Ubuntu as my OS out of preference.
 
