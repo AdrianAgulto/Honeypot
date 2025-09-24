@@ -1,7 +1,7 @@
 <h1>Honeypot</h1>  
 
 <h3>Objective</h3>  
-The objective of this project was to gain exposure to a common cybersecurity defense mechanism known as a honeypot used to lure and trap attackers. 
+The objective of this project was to gain exposure to a common cybersecurity defense mechanism known as a honeypot, which is used to lure and trap attackers. 
 
 <h3>Softwares Utilized</h3>  
  
