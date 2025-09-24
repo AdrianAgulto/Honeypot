@@ -90,7 +90,7 @@ Elasticvue: A tool allowing you to search, filter and query through data cluster
 
 Kibana: A tool that can display a customized dashboard for log analytics.
 
-Both Elasticvue and Kibana are tools that comprise the SIEM known as “ELK stack” the only tool missing that would complete the ELK Stack is Logstash.
+Both Elasticvue and Kibana are tools that comprise the SIEM known as “ELK Stack” the only tool missing that would complete the ELK Stack is Logstash.
 
 
 <img width="953" alt="image" src="https://github.com/user-attachments/assets/c72e4071-2638-438d-93a1-a5f378aa0871"/>
